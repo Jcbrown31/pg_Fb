@@ -1,15 +1,15 @@
 import pyautogui as pg
 import time
 
-pg.hotkey('ctrl','winleft','d')
-pg.hotkey('winleft',)
-pg.typewrite('crome\n',.3)
-pg.hotkey('winleft','up')
-pg.typewrite('http://www.espn.com/nba/team/_/name/ny/new-york-knicks\n',.001)
-time.sleep(30)
-pg.hotkey('alt','f4')
-pg.hotkey('ctrl','winleft','f4')
+Go to github to get first part of code
+
 pg.hotkey('winleft')
 pg.typewrite('crome\n',.1)
 pg.typewrite('netflix.com\n',.1)
-
+time.sleep(5)
+pg.click(1296, 144)
+time.sleep(1)
+pg.click(952, 268)
+pg.typewrite('matt@brown-nyc.com')
+pg.click(917, 354)
+pg.typewrite(brownstone1)
